@@ -21,6 +21,7 @@ git config core.hooksPath hooks
 ```
 
 ## Todo
+- hook not working
 - envs for configuring crontab behaviour
 - do adding to ~/.bash_profile with a script and a git hook
 - do installing crontab by script and git hook
