@@ -15,6 +15,11 @@ install crontab if you havent' done so already with
 (crontab -l 2>/dev/null | grep -v '^[a-zA-Z]'; echo "0 * * * * git -C ~/profiles pull") | sort -u | crontab -
 ```
 
+set git hooks dir
+```
+git config core.hooksPath hooks
+```
+
 ## Todo
 - envs for configuring crontab behaviour
 - do adding to ~/.bash_profile with a script and a git hook
